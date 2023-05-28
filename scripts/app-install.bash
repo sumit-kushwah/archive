@@ -43,6 +43,11 @@ sudo usermod -aG docker $USER
 sudo systemctl restart docker
 echo "docker installed"
 
+# install docker compose
+sudo curl -L "https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+echo "docker-compose installed"
+
 # install dbeaver
 snap install dbeaver-ce 
 
