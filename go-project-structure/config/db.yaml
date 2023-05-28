@@ -1,0 +1,5 @@
+dev:
+    name: main-db
+    port: 5432
+    user: sumit
+    password: main123
