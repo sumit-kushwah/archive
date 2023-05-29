@@ -58,6 +58,7 @@ snap install todoist
 sudo apt install git
 sudo apt install vim
 sudo apt install zsh
+sudo apt install htop
 echo "git, vim and zsh installed"
 
 # install oh-my-zsh
