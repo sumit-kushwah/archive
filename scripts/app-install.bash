@@ -54,6 +54,9 @@ snap install dbeaver-ce
 # install todoist
 snap install todoist
 
+# install spotify
+snap install spotify
+
 # install other development tools
 sudo apt install git
 sudo apt install vim
