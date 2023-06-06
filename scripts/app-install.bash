@@ -64,6 +64,9 @@ sudo apt install zsh
 sudo apt install htop
 echo "git, vim and zsh installed"
 
+# install anaconda3
+bash ./anaconda-install.sh
+
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "oh my zsh installed"
