@@ -57,6 +57,9 @@ snap install todoist
 # install spotify
 snap install spotify
 
+# install zoom
+snap install zoom-client
+
 # install other development tools
 sudo apt install git
 sudo apt install vim
